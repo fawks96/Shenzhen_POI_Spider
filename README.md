@@ -22,6 +22,7 @@ A spider for Shenzhen POI
 
     将获取数据存入Mysql数据区
 
+## 运行结果实例
 
-
+![MysqlData](https://github.com/fawks96/Shenzhen_POI_Spider/blob/master/MysqlData.png)
 
