@@ -35,11 +35,11 @@ engine = create_engine(
 
 # 配置ak消耗完毕时的邮件发送选项
 def send_email(subject, body, file):
-    # 配置163发送邮件的主体账户选项
-    yag = yagmail.SMTP(user='master2017@163.com', password='', host='smtp.163.com', port='465')
+    # 配置发送邮件的主体账户选项
+    yag = yagmail.SMTP(user='emailAddress', password='', host='smtp_server', port='465')
     body = body
     # 配置接收邮件的邮箱
-    yag.send(to=['443118619@qq.com'], subject=subject, contents=[body, r'%s' % file])
+    yag.send(to=['emailAddress'], subject=subject, contents=[body, r'%s' % file])
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = False
