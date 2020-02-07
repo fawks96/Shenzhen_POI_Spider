@@ -26,5 +26,5 @@ A spider for Shenzhen POI
 
 ## 运行结果示例
 
-![MysqlData](https://github.com/fawks96/Shenzhen_POI_Spider/blob/master/MysqlData.png)
+![MysqlData](https://raw.githubusercontent.com/fawks96/Shenzhen_POI_Spider/master/MysqlData.png)
 
